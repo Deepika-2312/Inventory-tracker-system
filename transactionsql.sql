@@ -14,5 +14,5 @@ CREATE TABLE Transaction (
     
     transaction_date DATE,
     payment_method varchar (150),
-   total_amount int
+   total_amount decimal(5,2)
 );
