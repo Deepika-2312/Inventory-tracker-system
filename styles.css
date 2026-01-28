@@ -1,0 +1,19 @@
+body{
+    background-color:floralwhite;
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+h1,h2{
+    background-color: floralwhite;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-decoration: solid;
+}
+form{
+    background-color:floralwhite;
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: italic;
+}

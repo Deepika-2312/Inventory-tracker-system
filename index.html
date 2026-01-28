@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retail Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Top Header -->
+<header class="header">
+  <div class="logo">RetailControl</div>
+  <nav>
+    <a class="active">Dashboard</a>
+    <a>Inventory</a>
+    <a>Reports</a>
+    <a>Users</a>
+  </nav>
+  <div class="profile">Admin</div>
+</header>
+
+<!-- Summary Strip -->
+<section class="summary">
+  <div>
+    <h3>₹12.4 Cr</h3>
+    <p>Total Stock Value</p>
+  </div>
+  <div>
+    <h3>86</h3>
+    <p>Low Stock</p>
+  </div>
+  <div>
+    <h3>12</h3>
+    <p>Out of Stock</p>
+  </div>
+  <div>
+    <h3>41</h3>
+    <p>Overstock</p>
+  </div>
+</section>
+
+<!-- Main Area -->
+<main class="container">
+
+  <!-- Left: Alerts -->
+  <section class="box">
+    <h2>Action Required</h2>
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Qty</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Sunflower Oil</td>
+        <td>0</td>
+        <td class="danger">Out</td>
+      </tr>
+      <tr>
+        <td>Rice 25kg</td>
+        <td>8</td>
+        <td class="warn">Low</td>
+      </tr>
+      <tr>
+        <td>Detergent</td>
+        <td>6</td>
+        <td class="warn">Low</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Right: Overview -->
+  <section class="box">
+    <h2>Today’s Overview</h2>
+    <ul class="overview">
+      <li>✔ 124 items received</li>
+      <li>✖ 17 stock mismatches</li>
+      <li>✔ 6 purchase orders approved</li>
+      <li>⚠ 3 devices offline</li>
+    </ul>
+  </section>
+
+</main>
+
+</body>
+</html>
